@@ -4,7 +4,7 @@ shareBtn.addEventListener('click', event => {
     if (navigator.share) {
         navigator.share({
             text: 'Lets work together',
-            url: 'https://alvin-profilsite.vercel.app'
+            url: "https://alvin-profilesite.vercel.app/"
         }).then(() => {
             console.log('Thanks You !!!');
         })
